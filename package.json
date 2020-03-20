@@ -1,0 +1,23 @@
+{
+  "name": "license",
+  "version": "0.0.0",
+  "description": "…",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "true"
+  },
+  "keywords": [
+    "license",
+    "osi",
+    "open-source"
+  ],
+  "author": "Shreyas Minocha",
+  "license": "MIT",
+  "dependencies": {
+    "es6-template-strings": "^2.0.1",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0"
+  }
+}
