@@ -15,8 +15,8 @@ router.get(
         "/",
         "/:license",
         "/:license/:dates(\\d{4})",
-        "/:license/:dates(\\d{4}(-|–))",
-        "/:license/:dates(\\d{4}(-|–)\\d{4})"
+        "/:license/:dates(\\d{4}-)",
+        "/:license/:dates(\\d{4}-\\d{4})"
     ],
     async ctx => {
         const license = ctx.params.license || "MIT";
