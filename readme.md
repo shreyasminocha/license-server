@@ -11,9 +11,9 @@
 
 ### `GET /mit/2017`
 
-### `GET /mit/2017-` or `GET /mit/2017–`
+### `GET /mit/2017-`
 
-### `GET /mit/2017-2020` or `GET /mit/2017–2020`
+### `GET /mit/2017-2020`
 
 ## License
 
