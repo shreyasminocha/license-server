@@ -43,8 +43,6 @@ app.listen(process.env.PORT || 3000);
 async function renderLicense(ctx, fields) {
     const { license, years, holder } = fields;
 
-    console.log(years);
-
     const text = await fs.readFile(path.join("licenses", `${license}.txt`));
     const interpolated = template(text, {
         year: years,
