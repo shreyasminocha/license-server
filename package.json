@@ -1,5 +1,5 @@
 {
-  "name": "license",
+  "name": "license-server",
   "version": "0.0.0",
   "description": "Self-hosted server to serve various OSI-approved and CC licenses",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shreyasminocha/license.git"
+    "url": "git+https://github.com/shreyasminocha/license-server.git"
   },
   "keywords": [
     "license",
@@ -20,9 +20,9 @@
   "author": "Shreyas Minocha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shreyasminocha/license/issues"
+    "url": "https://github.com/shreyasminocha/license-server/issues"
   },
-  "homepage": "https://github.com/shreyasminocha/license#readme",
+  "homepage": "https://github.com/shreyasminocha/license-server#readme",
   "dependencies": {
     "es6-template-strings": "^2.0.1",
     "koa": "^2.11.0",
