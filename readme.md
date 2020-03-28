@@ -5,6 +5,17 @@
 -   for other licenses too and
 -   self-hosted
 
+## Installation
+
+Assuming you have [node and npm installed](https://nodejs.org/en):
+
+1. Clone this repo — `git clone git@github.com:shreyasminocha/license`
+2. `cd` into it — `cd license`
+3. Install dependencies — `npm install`
+4. Set the `PORT` environment variable, the port which the server will listen on. This is `3000` by default.
+5. Set the `LICENSE_HOLDER` environment variable to your name.
+6. `npm start`
+
 ## Usage
 
 ### `GET /mit`
