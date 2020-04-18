@@ -5,7 +5,7 @@ Like [mit-license](https://github.com/remy/mit-license), but:
 -   for other licenses too and
 -   self-hosted
 
-<img src="https://coinsh.red/u/b0a893d6-da47-4653-b0b1-dcdb8fc1e61a.jpg" alt="Screenshot of /mit/2018- showing the MIT license with license years 2018–2020" width="400"/>
+<img src="https://coinsh.red/u/2a95c80c-f8c1-4e62-b5bd-28896b7cbf7d.jpg" alt="Screenshot of /mit/2018- showing the MIT license with license years 2018–2020" width="400"/>
 
 ## Installation
 
