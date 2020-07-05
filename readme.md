@@ -68,4 +68,4 @@ Create a PR or an issue!
 
 ## License
 
-[MIT License](https://shreyas.mit-license.org)
+[MIT License](https://l.shreyasminocha.me/MIT/2020-) 😉
