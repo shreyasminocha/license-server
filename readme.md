@@ -9,6 +9,32 @@ Like [mit-license](https://github.com/remy/mit-license), but:
 
 ## Installation
 
+### With docker
+
+1. [Login to the Docker GitHub Package registry](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages#authenticating-with-a-personal-access-token)
+
+    ```sh
+    docker login docker.pkg.github.com -u johndoe
+    # Enter your access token at the prompt
+    ```
+
+2. Pull the `license-server` container
+
+    ```sh
+    docker pull docker.pkg.github.com/shreyasminocha/license-server/license-server:0.1.0
+    ```
+
+3. Run the container
+
+    ```sh
+    docker run \
+        -p 1235:3000 \
+        -e LICENSE_HOLDER='John Doe <john@example.com>' \
+        -d docker.pkg.github.com/shreyasminocha/license-server/license-server:0.1.0
+    ```
+
+### With node and npm
+
 Assuming you have [node and npm installed](https://nodejs.org/en):
 
 1. Clone this repo — `git clone git@github.com:shreyasminocha/license-server`
