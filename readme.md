@@ -20,13 +20,15 @@ Assuming you have [node and npm installed](https://nodejs.org/en):
 
 ## Usage
 
-### `GET /mit`
+**Note**: Case-sensitive when deployed on case-sensitive file systems.
 
-### `GET /mit/2017`
+### `GET /MIT`
 
-### `GET /mit/2017-`
+### `GET /MIT/2017`
 
-### `GET /mit/2017-2020`
+### `GET /MIT/2017-`
+
+### `GET /MIT/2017-2020`
 
 ## Requesting new licenses
 
