@@ -1,6 +1,6 @@
 {
   "name": "license-server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Self-hosted server to serve various OSI-approved and CC licenses",
   "main": "index.js",
   "type": "module",
