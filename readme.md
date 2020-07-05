@@ -48,13 +48,31 @@ Assuming you have [node and npm installed](https://nodejs.org/en):
 
 **Note**: Case-sensitive when deployed on case-sensitive file systems.
 
+See [`licenses/`](/licenses) for a list of supported licenses.
+
 ### `GET /MIT`
+
+```txt
+Copyright (c) {current year} John Doe <john@example.com>
+```
 
 ### `GET /MIT/2017`
 
+```txt
+Copyright (c) 2017 John Doe <john@example.com>
+```
+
 ### `GET /MIT/2017-`
 
-### `GET /MIT/2017-2020`
+```txt
+Copyright (c) 2017–{current year} John Doe <john@example.com>
+```
+
+### `GET /MIT/2017-2019`
+
+```txt
+Copyright (c) 2017–2019 John Doe <john@example.com>
+```
 
 ## Requesting new licenses
 
